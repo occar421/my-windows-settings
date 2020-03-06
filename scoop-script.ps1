@@ -1,15 +1,15 @@
 # Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
 # Installation
-iwr -useb get.scoop.sh | iex\
+iwr -useb get.scoop.sh | iex
 
 ####################
 # Version Managers #
 ####################
 scoop install nvm # Node(JavaScript)
 scoop install jabba # Java
-# Python
-# Ruby
+# TODO Python
+scoop install https://bitbucket.org/jonforums/uru/downloads/uru.json
 
 #########
 # Tools #
