@@ -10,6 +10,8 @@ scoop install nvm # Node(JavaScript)
 scoop install jabba # Java
 # TODO Python
 scoop install https://bitbucket.org/jonforums/uru/downloads/uru.json
+# TODO Rust
+# TODO Go
 
 #########
 # Tools #
