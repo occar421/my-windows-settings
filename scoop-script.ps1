@@ -7,11 +7,15 @@ iwr -useb get.scoop.sh | iex
 # Version Managers #
 ####################
 scoop install nvm # Node(JavaScript)
-scoop install jabba # Java
 # TODO Python
 # TODO Ruby
 # TODO Rust
 # TODO Go
+# Jabba (Java)
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+Invoke-Expression (
+  Invoke-WebRequest https://github.com/shyiko/jabba/raw/master/install.ps1 -UseBasicParsing
+).Content
 
 #########
 # Tools #
