@@ -26,6 +26,7 @@ scoop install curl
 scoop install docker
 scoop install jetbrains-toolbox
 scoop install sudo
+scoop install gow
 
 ###########
 # Visuals #
