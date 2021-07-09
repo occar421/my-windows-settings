@@ -32,4 +32,4 @@ scoop install gow
 # Visuals #
 ###########
 scoop bucket add nerd-fonts
-sudo scoop install DejaVuSansMono-NF
+sudo scoop install firacode
