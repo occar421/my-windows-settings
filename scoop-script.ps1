@@ -22,6 +22,7 @@ Invoke-Expression (
 #########
 scoop install git
 scoop install yarn
+scoop install deno
 scoop install curl
 scoop install docker
 scoop install jetbrains-toolbox
