@@ -7,7 +7,8 @@ iwr -useb get.scoop.sh | iex
 # Version Managers #
 ####################
 scoop install nvm # Node(JavaScript)
-scoop install pyenv # Python
+scoop install pyenv@2.64.11 # Python
+scoop hold pyenv            # ref. https://github.com/ScoopInstaller/Main/issues/4143
 # TODO Rust
 # TODO Go
 # Jabba (Java)
