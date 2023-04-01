@@ -7,8 +7,7 @@ iwr -useb get.scoop.sh | iex
 # Version Managers #
 ####################
 scoop install nvm # Node(JavaScript)
-# TODO Python
-# TODO Ruby
+scoop install pyenv # Python
 # TODO Rust
 # TODO Go
 # Jabba (Java)
