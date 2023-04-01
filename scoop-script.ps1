@@ -27,6 +27,7 @@ scoop install docker
 scoop install jetbrains-toolbox
 scoop install sudo
 scoop install gow
+python -m ensurepip --upgrade
 
 ###########
 # Visuals #
