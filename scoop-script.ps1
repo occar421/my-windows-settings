@@ -10,7 +10,7 @@ scoop install nvm # Node(JavaScript)
 scoop install pyenv@2.64.11 # Python
 scoop hold pyenv            # ref. https://github.com/ScoopInstaller/Main/issues/4143
 # TODO Rust
-# TODO Go
+scoop install go
 # Jabba (Java)
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-Expression (
