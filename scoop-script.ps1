@@ -2,6 +2,7 @@
 
 # Installation
 iwr -useb get.scoop.sh | iex
+scoop bucket add extras
 
 ####################
 # Version Managers #
@@ -21,6 +22,8 @@ Invoke-Expression (
 # Tools #
 #########
 scoop install git
+nvm install lts
+nvm use lts
 scoop install yarn
 scoop install deno
 scoop install curl
