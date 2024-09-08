@@ -2,6 +2,8 @@
 
 # Installation
 iwr -useb get.scoop.sh | iex
+
+scoop install git
 scoop bucket add extras
 
 ####################
@@ -21,7 +23,6 @@ Invoke-Expression (
 #########
 # Tools #
 #########
-scoop install git
 nvm install lts
 nvm use lts
 scoop install yarn
@@ -37,4 +38,4 @@ python -m ensurepip --upgrade
 # Visuals #
 ###########
 scoop bucket add nerd-fonts
-sudo scoop install firacode
+scoop install monaspace
