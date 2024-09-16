@@ -11,17 +11,17 @@ scoop install sudo
 # Dev Drive
 # Assuming X is Dev Drive
 mkdir -p X:\packages\npm
-sudo setx /M npm_config_cache X:\packages\npm
+setx npm_config_cache X:\packages\npm
 mkdir -p X:\packages\pip
-sudo setx /M PIP_CACHE_DIR X:\packages\pip
+setx PIP_CACHE_DIR X:\packages\pip
 mkdir -p X:\packages\cargo
-sudo setx /M CARGO_HOME X:\packages\cargo
+setx CARGO_HOME X:\packages\cargo
 mkdir -p X:\packages\go
-sudo setx /M GOCACHE X:\packages\go
+setx GOCACHE X:\packages\go
 mkdir -p X:\packages\yarn
-sudo setx /M YARN_CACHE_FOLDER X:\packages\yarn
+setx YARN_CACHE_FOLDER X:\packages\yarn
 mkdir -p X:\packages\deno
-sudo setx /M DENO_DIR X:\packages\deno
+setx DENO_DIR X:\packages\deno
 
 ####################
 # Version Managers #
