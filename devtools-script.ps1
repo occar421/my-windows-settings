@@ -12,7 +12,8 @@ scoop install sudo
 # Version Managers #
 ####################
 scoop install nvm # Node(JavaScript)
-scoop install pyenv
+
+scoop install main/uv
 
 scoop install rustup
 mkdir -p X:\packages\cargo
