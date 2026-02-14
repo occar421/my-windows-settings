@@ -6,3 +6,7 @@
 ^WheelRight::^#Right
 ^MButton::^0
 ^RButton::MButton
+
+; Prevent invalid input
+WheelLeft::WheelLeft
+WheelRight::WheelRight
