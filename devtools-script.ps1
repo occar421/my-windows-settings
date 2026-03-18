@@ -7,37 +7,19 @@ iwr -useb get.scoop.sh | iex
 scoop install git
 scoop bucket add extras
 scoop install sudo
-
-####################
-# Version Managers #
-####################
 scoop install mise
 
-scoop install nvm # Node(JavaScript)
+# Programming Languages
+mise ls-remote node
+mise ls-remote python
+mise ls-remote rust
+mise ls-remote go
+mise ls-remote java
 
-scoop install main/uv
-
-scoop install rustup
-
-scoop install go
-
-#########
-# Tools #
-#########
-nvm install lts
-nvm use lts
-
-scoop install yarn
-
-scoop install deno
-
+# Tools
 scoop install jetbrains-toolbox
-scoop install gow
-
 python -m ensurepip --upgrade
 
-###########
-# Visuals #
-###########
+# Visuals
 scoop bucket add nerd-fonts
 scoop install monaspace
