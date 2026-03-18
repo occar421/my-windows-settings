@@ -11,6 +11,8 @@ scoop install sudo
 ####################
 # Version Managers #
 ####################
+scoop install mise
+
 scoop install nvm # Node(JavaScript)
 
 scoop install main/uv
