@@ -11,12 +11,12 @@ scoop install mise
 scoop install gpg
 
 # Programming Languages
-mise ls-remote node
-mise ls-remote deno
-mise ls-remote python
-mise ls-remote rust
-mise ls-remote go
-mise ls-remote java
+mise use --global node
+mise use --global deno
+mise use --global python
+mise use --global rust
+mise use --global go
+mise use --global java
 
 # Tools
 scoop install jetbrains-toolbox
