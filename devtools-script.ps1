@@ -8,6 +8,7 @@ scoop install git
 scoop bucket add extras
 scoop install gow  # GNU on Windows
 scoop install mise
+scoop install gpg
 
 # Programming Languages
 mise ls-remote node
