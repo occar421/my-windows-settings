@@ -20,7 +20,7 @@ mise use --global java
 
 # Tools
 scoop install jetbrains-toolbox
-python -m ensurepip --upgrade
+mise doctor
 
 # Visuals
 scoop bucket add nerd-fonts
