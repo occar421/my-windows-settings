@@ -13,6 +13,7 @@ scoop install gpg
 # Programming Languages
 mise use --global node
 mise use --global deno
+mise use --global pnpm
 mise use --global python
 mise use --global rust
 mise use --global go
