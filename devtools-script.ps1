@@ -14,6 +14,7 @@ scoop install gpg
 mise use --global node
 mise use --global deno
 mise use --global pnpm
+mise use --global bun
 mise use --global python
 mise use --global rust # including cargo
 mise use --global go
