@@ -15,9 +15,10 @@ mise use --global node
 mise use --global deno
 mise use --global pnpm
 mise use --global python
-mise use --global rust
+mise use --global rust # including cargo
 mise use --global go
 mise use --global java
+mise use --global github:leanprover/lean4 # including lake
 
 # Tools
 scoop install jetbrains-toolbox
