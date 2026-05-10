@@ -19,7 +19,7 @@ mise use --global python
 mise use --global rust # including cargo
 mise use --global go
 mise use --global java
-mise use --global github:leanprover/lean4 # including lake
+mise use --global github:leanprover/lean4 # including lake # Caution: elan should be installed via https://lean-lang.org/install/manual/
 
 # Tools
 scoop install jetbrains-toolbox
