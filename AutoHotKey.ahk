@@ -5,32 +5,38 @@
 ; Prevent multiple action
 wheelThreshold := 200
 lastWheelLeft := 0
+
+; {Blind} を追加：物理的な Ctrl の状態を維持
 ^WheelLeft::
 {
     global lastWheelLeft
     currentTime := A_TickCount
     if (currentTime - lastWheelLeft > wheelThreshold) {
-      Send "^#{Left}"
-      lastWheelLeft := currentTime
+        Send "{Blind}#{Left}" ; Ctrl は既に押されている(Blind)ので Win+Left だけ指定
+        lastWheelLeft := currentTime
     }
 }
+
 lastWheelRight := 0
 ^WheelRight::
 {
     global lastWheelRight
     currentTime := A_TickCount
     if (currentTime - lastWheelRight > wheelThreshold) {
-      Send "^#{Right}"
-      lastWheelRight := currentTime
+        Send "{Blind}#{Right}" ; Ctrl は既に押されている(Blind)ので Win+Right だけ指定
+        lastWheelRight := currentTime
     }
 }
-^MButton::^0
+
+^MButton::Send "{Blind}0"
+
 ; ^RButton::MButton doesn't work when hold
+; {Blind} を使うことで、Ctrl を維持したまま MButton を制御
 ^RButton::
 {
-    Send "{MButton down}"
+    Send "{Blind}{MButton down}"
     KeyWait "RButton"
-    Send "{MButton up}"
+    Send "{Blind}{MButton up}"
 }
 
 ; Prevent invalid input
