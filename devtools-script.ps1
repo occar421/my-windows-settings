@@ -11,7 +11,7 @@ scoop install mise
 scoop install gpg
 
 # Programming Languages
-mise use --global node
+mise use --global node@lts
 mise use --global deno
 mise use --global pnpm
 mise use --global bun
